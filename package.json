@@ -1,0 +1,29 @@
+{
+  "name": "check-script-by-jsdom",
+  "version": "1.0.0",
+  "description": "Check script to see if certain script was introduced using jsdom.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngusFu/check-script-by-jsdom.git"
+  },
+  "keywords": [
+    "jsdom",
+    "script",
+    "check"
+  ],
+  "author": "angusfu1126@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngusFu/check-script-by-jsdom/issues"
+  },
+  "homepage": "https://github.com/AngusFu/check-script-by-jsdom#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "jsdom": "9.12.0",
+    "request": "^2.81.0"
+  }
+}
